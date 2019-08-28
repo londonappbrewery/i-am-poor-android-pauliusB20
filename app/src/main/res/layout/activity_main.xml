@@ -13,7 +13,7 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
-        android:id="@+id/AppTitle"
+        android:id="@+id/Title1"
         android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -25,7 +25,7 @@
         android:textStyle="italic" />
 
     <TextView
-        android:id="@+id/AppSubTitle"
+        android:id="@+id/Title2"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -36,8 +36,8 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
-        android:layout_toEndOf="@+id/AppTitle"
-        android:layout_toRightOf="@+id/AppTitle"
+        android:layout_toEndOf="@+id/Title1"
+        android:layout_toRightOf="@+id/Title1"
         android:fontFamily="sans-serif-condensed"
         android:gravity="center|left"
         android:text="@string/Title2"
